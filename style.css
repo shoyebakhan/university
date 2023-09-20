@@ -1,0 +1,587 @@
+*
+{
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body
+{
+    overflow-x: hidden;
+}
+#main
+{
+    height: 20vh;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    background-color: aliceblue;
+    /* background-color: aqua; */
+}
+.abc
+{
+    height: 70%;
+    width: 50%;
+    background-image: url(cambridge_university2.svg);
+    background-size: 40%;
+    background-repeat: no-repeat;
+    transform: translate(50px,30px);
+}
+#main i{
+    transform: translate(1050px,-45px);
+    font-size: 30px;
+}
+.drp
+{
+    transform: translate(100px,);
+}
+.abc2 
+{
+    transform: translate(120px,-40px);
+    height: 20vh;
+    width: 50px;
+}
+.main2
+{
+    height: 110vh;
+    width: 100%;
+    background-image: url(a1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.main3 h1
+{
+    height: 15vh;
+    width: 40%;
+    font-size: 60px;
+    background-color: aliceblue;
+    transform: translate(0px,190px);
+    padding-left: 10px;
+} 
+.main3 h2
+{
+    height: 15vh;
+    width: 20%;
+    font-size: 60px;
+    background-color: aliceblue;
+    padding-left: 10px;
+    transform: translate(0px,220px);
+} 
+.main4 
+{
+    height: 20vh;
+    width: 45%;
+    background-color: rgb(7, 7, 7);
+    transform: translate(20px,250px);
+    color: aliceblue;
+}
+.main4 a
+{
+    color: rgb(221, 17, 102);
+}
+.ludo
+{
+    height: 25vh;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+}
+.ludo1
+{
+    height:12vh;
+    width: 50%;
+    background-color: rgb(91, 194, 148);
+    margin: 20px;
+    transform: translate(-20px,20px);
+}
+.ludo2
+{
+    height:12vh;
+    width: 50%;
+    margin: 20px;
+    transform: translate(20px,20px);
+
+    background-color: rgb(227, 15, 142);
+}
+.ludo1 h4
+{
+    padding: 10px;
+}
+
+.ludo1 button
+{
+    border: none;
+    height: 38px;
+    width: 18%;
+    background-color: rgb(158, 224, 202);
+    transform: translate(330px,-45px);
+}
+.ludo1 .op
+{
+    height:38px;
+    background-color: black;
+    width: 22%;
+    color: aliceblue;
+    transform: translate(340px,-45px);
+}
+.ludo2 h4
+{
+    padding: 10px;
+}
+.ludo2 button
+{
+    border: none;
+    height: 38px;
+    width: 18%;
+    background-color: rgb(158, 224, 202);
+    transform: translate(330px,-45px);
+}
+.ludo2 .op1
+{
+    height:38px;
+    background-color: black;
+    width: 22%;
+    color: aliceblue;
+    transform: translate(340px,-45px);
+}
+.fam
+{
+    height: 100vh;
+    width: 92%;
+    background-image: url(maxresdefault.jpg);
+
+    background-repeat: no-repeat;
+    transform: translate(55px,20px);
+    background-size: 100%;
+}
+.fam i{
+    transform: translate(4900%,10px);
+    font-size: 23px;
+}
+.fam1
+{
+    height: 100vh;
+    width: 92%;
+    /* background-color: aquamarine; */
+    transform: translate(53px,50px);
+    /* display: flex; */
+}
+.kam1
+{
+    height: 70vh;
+    width: 33%;
+    background-image: url(libraries_-_800\ \(1\).jpg);
+    background-repeat: no-repeat;
+}
+.kam2
+{
+    height: 70vh;
+    width: 33%;
+    transform: translate(383px,-400px);
+    background-image: url(museums_-_cambridge_university_-_800_0.jpg);
+    background-repeat: no-repeat;
+
+}
+.kam3
+{
+    height: 70vh;
+    width: 34%;
+    background-image: url(latest_research_homepage.jpg);
+    background-repeat: no-repeat;
+    transform: translate(766px,-800px);
+}
+.kam4
+{
+    height: 70vh;
+    width: 33%;
+    background-image: url(business_-_az1753_young-woman-in-lab-800_0.jpg);
+    background-repeat: no-repeat;
+    transform: translate(0px,-800px);
+}
+.kam5
+{
+    height: 70vh;
+    width: 33%;
+    background-image: url(alumni_-_attenboroug_-_box.png);
+    background-repeat: no-repeat;
+    transform: translate(382px,-1200px);
+}
+.kam6
+{
+    height: 70vh;
+    width: 34%;
+    background-image: url(sport_-_cambridge_university.jpg);
+    background-repeat: no-repeat;
+    transform: translate(766px,-1600px);
+}
+.kam1 button
+{
+    height: 50px;
+    width: 300px;
+    transform: translate(40px,320px);
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    font-size: 20px;
+}
+.kam1 button:hover
+{
+    background-color: rgb(248, 13, 177);
+    color: black;
+}
+.kam2 button
+{
+    height: 50px;
+    width: 300px;
+    transform: translate(40px,320px);
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    font-size: 20px;
+}
+.kam2 button:hover
+{
+    background-color: rgb(248, 13, 177);
+    color: black;
+}
+.kam3 button
+{
+    height: 50px;
+    width: 300px;
+    transform: translate(40px,320px);
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    font-size: 20px;
+}
+.kam3 button:hover
+{
+    background-color: rgb(248, 13, 177);
+    color: black;
+}
+.kam4 button
+{
+    height: 50px;
+    width: 300px;
+    transform: translate(40px,320px);
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    font-size: 20px;
+}
+.kam4 button:hover
+{
+    background-color: rgb(248, 13, 177);
+    color: black;
+}
+.kam5 button
+{
+    height: 50px;
+    width: 300px;
+    transform: translate(40px,320px);
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    font-size: 20px;
+}
+.kam5 button:hover
+{
+    background-color: rgb(248, 13, 177);
+    color: black;
+}
+.kam6 button
+{
+    height: 50px;
+    width: 300px;
+    transform: translate(40px,320px);
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    font-size: 20px;
+}
+.kam6 button:hover
+{
+    background-color: rgb(248, 13, 177);
+    color: black;
+}
+.kak
+{
+    height: 150vh;
+    width: 92%;
+    /* background-color: aquamarine; */
+    transform: translate(50px,300px);
+}
+.kak h2
+{
+    padding-top: 50px;
+}
+.num1
+{
+    height: 50vh;
+    width: 30%;
+    background-image: url(senate-378x328.jpg);
+    background-repeat: no-repeat;
+    transform: translate(10px,57px);
+    background-size: cover;
+}
+.num2
+{
+    height: 50vh;
+    width: 30%;
+    background-image: url(news-anglessey-beach-community-open-map-378x328.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: translate(406px,-228px);
+}
+.num3
+{
+    height: 50vh;
+    width: 30%;
+    background-image: url(news-microbiome-kingdom-gut-cambridge-378x328.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: translate(800px,-513px);
+}
+.num1 h4
+{
+    transform: translate(0px,300px);
+    width: 500px;
+    font-size: 19px;
+    color: gray;
+}
+.num1 p
+{
+    transform: translate(0px,300px);
+    width: 400px;
+    font-size: 15px;
+    /* color: gray; */
+}
+.num2 h4
+{
+    transform: translate(0px,300px);
+    width: 500px;
+    font-size: 19px;
+    color: gray;
+}
+.num2 p
+{
+    transform: translate(0px,300px);
+    width: 400px;
+    font-size: 15px;
+    /* color: gray; */
+}
+.num3 h4
+{
+    transform: translate(0px,300px);
+    width: 500px;
+    font-size: 19px;
+    color: gray;
+}
+.num3 p
+{
+    transform: translate(0px,300px);
+    width: 400px;
+    font-size: 15px;
+    /* color: gray; */
+}
+.nop
+{
+    transform: translate(900px,-280px);
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    color: rgb(29, 132, 158);
+    border: none;
+    background-color: black;
+}
+
+.nop:hover
+{
+    background-color: rgb(89, 165, 220);
+    color: black;
+}
+#pluc
+{
+    height: 150vh;
+    width: 92%;
+    transform: translate(50px,300px);
+}
+#pluc h2
+{
+    padding-top: 50px;
+    
+}
+/* #pluc h4
+{
+
+    width: 500px;
+    font-size: 20px;
+    transform: translate(20px);
+} */
+.pluc1
+{
+    height: 50vh;
+    width: 30%;
+    background-image: url(events-open-cambridge-programme-live-378x328\ \(1\).jpg);
+    background-repeat: no-repeat;
+    transform: translate(10px,57px);
+    background-size: cover;
+}
+.pluc2
+{
+    height: 50vh;
+    width: 30%;
+    background-image: url(cambridge-college-undergraduate-open-day-378x328.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: translate(406px,-228px);
+}
+.pluc3
+{
+    height: 50vh;
+    width: 30%;
+    background-image: url(events-cambridge-postgraduate-study-college-open-days-378x328.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: translate(800px,-513px);
+}
+.pluc1 h4
+{
+    transform: translate(0px,300px);
+    width: 500px;
+    font-size: 19px;
+    color: gray;
+}
+.pluc1 p
+{
+    transform: translate(0px,300px);
+    width: 400px;
+    font-size: 15px;
+    /* color: gray; */
+}
+.pluc2 h4
+{
+    transform: translate(0px,300px);
+    width: 500px;
+    font-size: 19px;
+    color: gray;
+}
+.pluc2 p
+{
+    transform: translate(0px,300px);
+    width: 400px;
+    font-size: 15px;
+    /* color: gray; */
+}
+.pluc3 h4
+{
+    transform: translate(0px,300px);
+    width: 500px;
+    font-size: 19px;
+    color: gray;
+}
+.pluc3 p
+{
+    transform: translate(0px,300px);
+    width: 400px;
+    font-size: 15px;
+    /* color: gray; */
+}
+.nop1
+{
+    transform: translate(900px,-280px);
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    color: rgb(29, 132, 158);
+    border: none;
+    background-color: black;
+}
+
+.nop1:hover
+{
+    background-color: rgb(89, 165, 220);
+    color: black;
+}
+.badhshah
+{
+    height: 85vh;
+    width: 100%;
+    /* background-color: aquamarine; */
+    transform: translate(0px,300px);
+}
+.wem
+{
+    height:20vh;
+    width: 50%;
+    /* background-color: bisque; */
+    transform: translate(60px);
+}
+.wem h2
+{
+    font-size: 40px;
+}
+.wem1
+{
+    height:56vh;
+    width: 100%;
+    background-color: rgb(9, 9, 9);
+    transform: translate(0px,100px);
+}
+.wem i{
+    font-size: 40px;
+}
+.wem2 {
+    transform: translate(50px,-40px);
+    
+}
+.wem3 {
+    transform: translate(97px,-80px);
+    
+}
+.wem4 {
+    transform: translate(140px,-120px);
+    
+}
+.wem5 {
+    transform: translate(190px,-160px);
+    
+}
+.wem6 {
+    transform: translate(250px,-200px);
+    
+}
+.farhan
+{
+    height: 7vh;
+    width: 50%;
+    background-image: url(university_logo_white-01.svg);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    transform: translate(10px,20px);
+
+}
+.farhan h6
+{
+    transform: translate(0px,50px);
+    font-size: 12px;
+    color: aliceblue;
+}
+.farhan li{
+    transform: translate(0px,70px);
+    list-style: none;
+    color: aliceblue;
+    font-size: 15px;
+    padding-top: 5px;
+}
+.ktech li{
+    transform: translate(300px,-200px);
+    padding-top: 5px;
+}
+.ktech1 li
+{
+    transform: translate(620px,-370px);
+}
+.ktech2 li{
+    transform: translate(940px,-530px);
+}
+
